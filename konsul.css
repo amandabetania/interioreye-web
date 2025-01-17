@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #E8DCCB;
+    color: #464646;
+}
+
+/* NAVBAR */
+.nav-con{
+    display: flex;
+}
+.navbar-container{
+    width: 100%;
+    background-color: #E8DCCB;
+    position: fixed;
+}
+.navbar{
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    padding: 15px;
+    margin: 20px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px #4646469d;
+    align-items: center;
+}
+.logo-navbar{
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    margin-right: 3%;
+}
+.menu-navbar{
+    text-decoration: none;
+    color: #464646;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.menu-navbar1{
+    text-decoration: none;
+    color: #464646;
+    padding: 5px 10px;
+    border-bottom: #D9C4A8 2px solid;
+    margin: 0 5px;
+}
+    .menu-navbar:hover{
+        border-bottom: #D9C4A8 2px solid;
+        transition: .2s ease-in-out;
+    }
+
+
+.konsul-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 50px 0 50px;
+}
+.konsul-btn button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 100%;
+    background-color: #E8DCCB;
+    border: 5px solid #FFFFFF;
+    font-size: 20px;
+    color: #464646;
+    font-weight: 500;
+}
+.konsul-btn img:hover{
+    cursor: pointer;
+    border: 3px solid #464646;
+    transition: .3s ease-in-out;
+
+}
+.konsul-btn a{
+    text-decoration: none;
+    flex-basis: 30%;
+}
+.konsul-btn p{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    flex-basis: 10%;
+    margin-top: 30px;
+    border-bottom: 2px solid #ffffff;
+}
+.add-img{
+    width: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+.konsul{
+    display: block;
+    margin-top: 3%;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.konsul section{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 45%;
+    height: 60%;
+    padding: 30px;
+    margin: 0 50px;
+}
+.konsul h4{
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+}
+hr{
+    margin: 20px 0;
+}
+.konsul p{
+    font-size: 17px;
+    width: 100%;
+    text-align: justify;
+}
+.konsul h6{
+    font-size: 17px;
+    margin: 20px 0 30px 0;
+    width: 100%;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.question{
+    height: 130px;
+}
+.answer{
+    height: 140px;
+}
+
+
+/* FOOTER */
+.footer-container{
+    background-color: #ffffff;
+}
+.footer{
+    margin-top: 70px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E8DCCB;
+}
+.footer h3{
+    color: #464646;
+    border-bottom: 2px solid #464646;
+    padding: 5px;
+}
+.logo img{
+    margin-bottom: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: #464646;
+}
+.footer p{
+    margin-top: 10px;
+    color: #464646;
+}
+    .more p:hover{
+        color: #E8DCCB;
+        transition: .1s ease-in-out;
+    }
+.sosmed section{
+    display: flex;
+    margin-top: 10px;
+}
+.footer h2{
+    color: #464646;
+    font-size: 30px;
+}
+section p{
+    margin-left: 5px;
+}
+.copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 40px 10px 40px;
+    background-color: #E8DCCB;
+}
+.copyright{
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}

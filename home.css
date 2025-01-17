@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* NAVBAR */
+.nav-con{
+    margin: 20px;
+    display: flex;
+}
+.navbar{
+    width: 94%;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    padding: 15px;
+    margin: 20px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px #4646469d;
+    align-items: center;
+}
+.logo-navbar{
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    margin-right: 3%;
+}
+.menu-navbar{
+    text-decoration: none;
+    color: #464646;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+    .menu-navbar:hover{
+        border-bottom: #D9C4A8 2px solid;
+        transition: .2s ease-in-out;
+    }
+
+
+/* HERO SECTION */
+.hero-container{
+    width: 100%;
+    margin-top: 16%;
+    display: flex;
+    align-items: center;
+}
+.hero{
+    margin-left: 5%;
+    animation: hero-ani 4s;
+}
+    .hero h3{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+    .hero h1{
+        font-size: 80px;
+        font-weight: bolder;
+        color: white;
+    }
+@keyframes hero-ani{
+    from{
+        margin-left: -30%;
+    }
+    to{
+        margin-left: 5%;
+    }
+}
+
+/* KATEGORI */
+.kategori{
+    margin: 33% 10% 10% 10%;
+    display: inline-flex;
+    justify-content: center;
+}
+.kategori div{
+    display: block;
+}
+.kategori div section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-kategori{
+    width: 70%;
+    border-radius: 150px 150px 0 0;
+}
+.kategori-title{
+    width: 70%;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: #464646 2px solid;
+    text-decoration: none;
+    color: #464646;
+}
+    .kategori-title:hover{
+        border-bottom: #D9C4A8 2px solid;
+        transition: .2s ease-in-out;
+    }
+
+/* DESCRIPTION */
+.description{
+    background-color: #E8DCCB;
+    display: flex;
+}
+    .description img{
+        width: 41%;
+    }
+    .description section{
+        flex-basis: 59%;
+        padding: 5% 10%;
+    }
+    .description section h3{
+        font-size: 30px;
+        color: #464646;
+        text-align: center;
+        width: 100%;
+        font-weight: bolder;
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    .description section span{
+        text-align: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        margin-bottom: 35px;
+    }
+        .description section span hr{
+            color: #464646;
+            width: 50%;
+        }
+    .description section p{
+        font-size: 20px;
+        color: #464646;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+    }
+
+
+/* POPULAR */
+.popular{
+    display: block;
+    width: 100%;
+}
+.popular img{
+    width: 100%;
+    box-shadow: 2px 0px 10px 0px #46464688;
+}
+.popular a{
+    width: 30%;
+    text-decoration: none;
+    color: #464646;
+}
+.popular-style{
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+}
+.popular-color{
+    margin-bottom: 50px;
+}
+.popular-style h2, .popular-color h2{
+    color: #464646;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+.popular p{
+    display: flex;
+    height: 140px;
+    margin: -250px 100px 100px 100px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffffa6;
+    backdrop-filter: blur(2px);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 10% 5% 10%;
+}
+
+/* ABOUT-US */
+.about-us{
+    background-color: #E8DCCB;
+    display: flex;
+}
+.image{
+    flex-basis: 33%;
+}
+.text{
+    flex-basis: 67%;
+    padding: 5% 10%;
+}
+.about-us img{
+    width: 100%;
+}
+.about-us h3{
+    font-size: 30px;
+    color: #464646;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.about-us span{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+    .about-us span hr{
+        color: #464646;
+        width: 50%;
+    }
+.about-us p{
+    font-size: 20px;
+    color: #464646;
+    text-align: center;
+    line-height: 35px;
+    width: 100%;
+}
+
+/* FOOTER */
+.footer{
+    margin-top: 70px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E8DCCB;
+}
+.footer h3{
+    color: #464646;
+    border-bottom: 2px solid #464646;
+    padding: 5px;
+}
+.logo img{
+    margin-bottom: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: #464646;
+}
+.footer p{
+    margin-top: 10px;
+    color: #464646;
+}
+    .more p:hover{
+        color: #E8DCCB;
+        transition: .1s ease-in-out;
+    }
+.sosmed section{
+    display: flex;
+    margin-top: 10px;
+}
+.footer h2{
+    color: #464646;
+    font-size: 30px;
+}
+section p{
+    margin-left: 5px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 50px;
+    padding: 20px 0px;
+    background-color: #E8DCCB;
+}

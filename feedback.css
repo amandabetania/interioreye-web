@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    color: #464646;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 30px 0;
+}
+
+body div{
+    display: flex;
+}
+.form{
+    background-color: #E8DCCB;
+    flex-basis: 50%;
+    margin: 80px 50px 0 50px;
+    display: block;
+    border-radius: 20px;
+}
+.form form{
+    width: 100%;
+}
+.form input{
+    background-color: #ffffff;
+    height: 50px;
+    width: 76%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    margin: 20px 12%;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+    .form input:focus{
+        border: 2px solid #464646;
+    }
+
+.form textarea{
+    background-color: #ffffff;
+    margin: 20px 12%;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    color: #464646;
+}
+    .form textarea:focus{
+        border: 2px solid #464646;
+    }
+
+.form button{
+    color: #ffffff;
+    width: 76%;
+    height: 50px;
+    margin: 30px 12% 40px 12%;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: #464646;
+}
+
+img{
+    width: 55%;
+    height: 65%;
+}
+
+.image{
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+}
+.form div{
+    display: flex;
+    padding: ;
+}
+
+/* FOOTER */
+.footer-container{
+    background-color: #ffffff;
+}
+.footer{
+    margin-top: 70px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E8DCCB;
+}
+.footer h3{
+    color: #464646;
+    border-bottom: 2px solid #464646;
+    padding: 5px;
+}
+.logo img{
+    margin-bottom: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: #464646;
+}
+.footer p{
+    margin-top: 10px;
+    color: #464646;
+}
+    .more p:hover{
+        color: #E8DCCB;
+        transition: .1s ease-in-out;
+    }
+.sosmed section{
+    display: flex;
+    margin-top: 10px;
+}
+.footer h2{
+    color: #464646;
+    font-size: 30px;
+}
+section p{
+    margin-left: 5px;
+}
+.copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 40px 10px 40px;
+    background-color: #E8DCCB;
+}
+.copyright{
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
